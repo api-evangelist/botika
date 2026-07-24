@@ -1,7 +1,28 @@
 aid: botika
 name: Botika
-description: Botika is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Botika is an AI fashion-photography platform that helps online clothing and
+  e-commerce brands replace traditional model photoshoots with generative AI. It
+  turns flat-lay, mannequin, and basic on-model product photos into
+  studio-quality images featuring fully AI-generated fashion models, poses, and
+  on-brand backgrounds. Founded by Eran Dagan and Yarin Didi Meir and backed by
+  an $8M seed round with participation from Seedcamp, Botika ships a web console,
+  a native Shopify app, and an iOS app, cutting photoshoot costs by up to 90% and
+  speeding time-to-market roughly 3x. A public API is on the company roadmap but
+  is not yet released, so this profile currently captures company identity and
+  public web properties rather than API artifacts.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/66fa67b1f207f846cd05b5a1/67a06455f82b2bd064ade29b_Botika_Logo_OpenGraph.png
 url: https://raw.githubusercontent.com/api-evangelist/botika/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- Generative AI
+- Fashion
+- E-Commerce
+- Photography
+- Computer Vision
+- Retail
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/botika-domain-security.yml
 - type: Website
-  url: http://botika.com
+  url: https://botika.com
+- type: Pricing
+  url: https://botika.com/pricing
+- type: SignUp
+  url: https://app.botika.com/create
+- type: Blog
+  url: https://botika.com/resources/thethread
+- type: Support
+  url: https://botika-io.crisp.help/en/
+- type: HelpCenter
+  url: https://botika.com/contact-us
+- type: TermsOfService
+  url: https://botika.com/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://botika.com/legal/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
