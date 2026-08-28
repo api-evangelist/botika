@@ -11,6 +11,17 @@ description: >-
   speeding time-to-market roughly 3x. A public API is on the company roadmap but
   is not yet released, so this profile currently captures company identity and
   public web properties rather than API artifacts.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
