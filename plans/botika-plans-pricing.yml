@@ -1,0 +1,50 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://botika.com/pricing
+sources:
+- https://botika.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: 'Page lists struck-through and discounted prices ($55 $46, $100 $40) with yearly billing saving
+  17%; credits: each photo costs 1 credit and each video costs 5 credits. Enterprise is custom/book a
+  call.'
+plan_count: 3
+currency: USD
+plans:
+- name: Pro
+  price_text: $46
+  price: 46
+  currency: USD
+  period: month
+  unit: per month billed annually
+  included_quota: 600 credits/year; 2 retouch rounds per photo; 2-day photo fix delivery; no watermarks;
+    2K image resolution
+  overage: one-off credit packs of up to 150 credits
+- name: Advanced
+  price_text: $40
+  price: 40
+  currency: USD
+  period: month
+  unit: per month billed annually
+  included_quota: 1000 credits/year; 3 retouch rounds per photo; 1-day photo fix delivery; all models
+    and backgrounds; 4K image resolution
+  overage: one-off credit packs of up to 150 credits
+- name: Enterprise
+  price_text: Custom
+  period: none
+  included_quota: Everything in Advanced; exclusive AI models, exclusive backgrounds, white-glove QC
+rate_limit_statements:
+- You can start any plan with as few as 20 credits per month and upgrade mid-month, up to 450 credits
+  for that month.
+- you can also purchase one-off credit packs of up to 150 credits directly from your Account & Billing
+  page
